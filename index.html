@@ -1,7 +1,260 @@
 <!DOCTYPE html>
-<html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Standard Meta -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Alessandro Raganato</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/site.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/container.css">
+  <link rel="stylesheet" type="text/css" href="./css/grid.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/image.css">
+  <link rel="stylesheet" type="text/css" href="./css/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/divider.css">
+  <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="./css/segment.css">
+  <link rel="stylesheet" type="text/css" href="./css/button.css">
+  <link rel="stylesheet" type="text/css" href="./css/list.css">
+  <link rel="stylesheet" type="text/css" href="./css/icon.css">
+  <link rel="stylesheet" type="text/css" href="./css/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="./css/transition.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/visibility.js"></script>
+  <script src="./js/sidebar.js"></script>
+  <script src="./js/transition.js"></script>
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64789433-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+-->
+  <script type="text/javascript">
+   $(function() {
+    $('#show-sidebar').click(function() {
+      $('.menu.sidebar').sidebar('toggle');
+    });
+
+    $('#hide-sidebar').click(function() {
+      $('#show-sidebar').show();
+      $('.menu.sidebar').sidebar('toggle');
+    });
+  });
+
+  </script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+
+ <div class="ui left inverted vertical menu sidebar" id="menusidebar">
+      <div class="item">
+        <button id="hide-sidebar" class="ui black big right attached fixed button">
+          <i class="sidebar icon"></i><b>Menu</b>
+        </button>
+      </div>
+    <a class="item" href="#about_me">About me</a>
+    <a class="item" href="#contacts">Contacts</a>
+    <a class="item" href="#projects_links">Projects/Links</a>
+    <a class="item" href="#publications">Publications</a>
+ </div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+
+     <div id="show-sidebar">
+        <i class="sidebar icon" class="button toggler"></i>
+       <b>Menu</b>
+      </div>
+
+  <div class="ui fixed inverted menu center aligned segment" style="padding: 0px;">
+
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu">
+    <a class="active item" href="#about_me">About me</a>
+    <a class="active item" href="#contacts">Contacts</a>
+    <a class="active item" href="#projects_links">Projects/Links</a>
+    <a class="active item" href="#publications">Publications</a>
+      </div>
+    </div>
+
+  </div>
+
+<div class="ui vertical stripe segment" style="padding: 70px;">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="three wide left column">
+          <img src="./images/raganato.jpg" class="ui bordered rounded image">
+        </div>
+        <div class="eleven wide column">
+		<h2> Alessandro Raganato </h2><br>
+<p>
+I am a postdoctoral researcher within the <a target="_blank" href="https://blogs.helsinki.fi/language-technology/" title="">language technology</a> research group at the <a target="_blank" href="https://www.helsinki.fi/en" title="">University of Helsinki</a>.  I am part of the <a target="_blank" href="https://blogs.helsinki.fi/language-technology/fotran/" title="">FoTran</a> team led by <a target="_blank" href="https://blogs.helsinki.fi/tiedeman/" title="">prof. Jörg Tiedemann</a>, a project at the intersection of cross lingual Natural Language Processing and machine translation, funded by an <a target="_blank" href="https://erc.europa.eu/news/erc-2017-consolidator-grants-results" title="">ERC Consolidator Grant</a>. 
+I also joined a private AI research lab and consultancy company, <a target="_blank" href="https://basement.ai/" title="">Basement AI</a>, as Head of Technology. 
+<br>
+<br>
+</p>
+        </div>
+	</div>
+ <div class="row" >
+<p>
+I did my PhD at the <a target="_blank" href="http://lcl.uniroma1.it/" title="">Linguistic Computing Laboratory (LCL)</a> of the <a target="_blank" href="https://www.uniroma1.it/en" title="">Sapienza University of Rome</a>, under the supervision of <a target="_blank" href="http://wwwusers.di.uniroma1.it/~navigli/" title="">prof. Roberto Navigli</a>. 
+<br>
+My research interests are, among others, semantic representation, Word Sense Disambiguation and Neural Machine Translation. 
+</p>
+</div>
+      </div>
+    </div>
+
+    <div class="ui vertical stripe segment" style="padding: 30px;">
+     <div class="ui middle aligned stackable grid container">
+      <div class="row">
+      <h2 class="ui header" id="contacts">Contacts</h2>
+       </div>
+       <div class="row" style="padding: 0px;">
+<p> E-mail is the best way to get in touch with me. 
+ You can reach me at: alessandro DOT raganato AT helsinki DOT fi 
+<br>
+</p>
+  </div>
+    </div>
+  </div>
+
+
+<div class="ui vertical stripe segment" style="padding: 30px;">
+     <div class="ui middle aligned stackable grid container">
+   <div class="row">
+      <h2 class="ui header" id="projects_links">Projects/Links</h2>
+        </div>
+   <div class="row" style="padding: 0px;">
+<div class="ui bulleted list">
+  <div class="item"><p><a target="_blank" href="http://babelfy.org/" title="">Babelfy</a>: a Unified Approach to WSD and EL.</p></div>
+  <div class="item"><p><a target="_blank" href="http://www.babelnet.org/" title="">BabelNet</a>: a multilingual encyclopedic dictionary and a semantic network which connects concepts and named entities in a very large network of semantic relations.</p></div>
+<div class="item"><p><a target="_blank" href="https://github.com/raganato/BabelMorph" title="">BabelMorph</a>: a multilingual morphological library for retrieving word inflections for nouns, verbs and adjectives based on Wiktionary.</p></div>
+<div class="item"><p><a target="_blank" href="https://github.com/SIMON3P/supWSD" title="">supWSD</a>: a supervised Word Sense Disambiguation system.</p></div>
+<div class="item"><p><a href="https://github.com/Helsinki-NLP/OpenNMT-py/tree/neural-interlingua" target="_blank">Multi encoder-decoder OpenNMT-py</a>: a multilingual implementation of a inner-attention encoder-decoder NMT model trainable with a language rotating schedule.</p></div>
+<div class="item">
+<div><p>Sense Annotated Corpora:</p></div>
+<div class="list">
+ <div class="item"><p>EuroSense: almost 123 million sense annotations for over 155 thousand distinct concepts and entities in 21 languages. <a href="http://lcl.uniroma1.it/eurosense/" target="_blank">website</a></p></div>
+ <div class="item"><p>Five standard all-words Word Sense Disambiguation datasets, and two training data: SemCor and OMSTI. <a href="http://lcl.uniroma1.it/wsdeval/" target="_blank">website</a></p></div>
+ <div class="item"><p>Sense-annotated corpus (two chapters of the Bible) of 594 manual annotations (English and Spanish). <a href="./lt4dh/index.html" target="_blank">website</a></p></div>
+ <div class="item"><p>Almost 250 milion sense-annotations of over 35 million definitions for 256 languages. <a href="http://lcl.uniroma1.it/disambiguated-glosses/" target="_blank">website</a></p></div>
+ <div class="item"><p>SEW: More than 200 million annotations of over 4 million different concepts and named entities. <a href="http://lcl.uniroma1.it/sew/" target="_blank">website</a></p></div>
+ <div class="item"><p>Babelified Wikipedia. <a href="http://lcl.uniroma1.it/babelfied-wikipedia/" target="_blank">website</a></p></div>
+ <div class="item"><p>Semantically Tagged glosses from the Princeton WordNet Gloss Corpus. An easy-to-use xml file. <a href="./wnglosses/wordnetGlosses.html" target="_blank">website</a></p></div>
+</div>
+
+</div>
+</div>
+
+ </div>
+ </div>
+  </div>
+
+
+  <div class="ui vertical stripe segment" style="padding: 30px;">
+     <div class="ui middle aligned stackable grid container">
+      <h2 class="ui header" id="publications">Publications</h2>
+	 <div class="row">
+
+<p>Ra&uacute;l V&aacute;zquez, Alessandro Raganato, J&ouml;rg Tiedemann and Mathias Creutz.<br />
+<b>Multilingual NMT with a language-independent attention bridge.</b> [<a href="https://arxiv.org/pdf/1811.00498.pdf" target="_blank">paper</a>] [<a href="./bib/MNMT2018.bib" target="_blank">bib</a>]  [<a href="https://github.com/Helsinki-NLP/OpenNMT-py/tree/neural-interlingua" target="_blank">code</a>]<br />
+<i>arXiv preprint arXiv:1811.00498 (2018)</i>.<br />
+</p>
+
+<p>Alessandro Raganato and J&ouml;rg Tiedemann.<br />
+<b>An Analysis of Encoder Representations in Transformer-Based Machine Translation.</b> [<a href="http://aclweb.org/anthology/W18-5431" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/W18-5431/w18-5431.bib" target="_blank">bib</a>] [<a href="./presentations/BlackBox2018_poster.pdf" target="_blank">poster</a>] <br />
+<i>Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP</i>. 2018.<br />
+</p>
+
+<p>Alessandro Raganato, Yves Scherrer, Tommi Nieminen, Arvi Hurskainen, and J&ouml;rg Tiedemann.<br />
+<b>The University of Helsinki submissions to the WMT18 news task.</b> [<a href="http://aclweb.org/anthology/W18-6425" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/W18-6425/w18-6425.bib" target="_blank">bib</a>] [<a href="./presentations/WMT18_poster.pdf" target="_blank">poster</a>] <br />
+<i>In Proceedings of the Third Conference on Machine Translation: Shared Task Papers</i>, pp. 488-495. 2018.<br />
+</p>
+
+<p>Jos&eacute; Camacho-Collados, Claudio Delli Bovi, Alessandro Raganato and Roberto Navigli.<br />
+<b>Sense Defs: a multilingual corpus of semantically annotated textual definitions.</b> [<a href="https://link.springer.com/content/pdf/10.1007%2Fs10579-018-9421-3.pdf" target="_blank">paper</a>] [<a href="./bib/LRE2018.bib" target="_blank">bib</a>]  [<a href="http://lcl.uniroma1.it/sensedefs/" target="_blank">website</a>]<br />
+<i>Language Resources and Evaluation (LRE)</i>, 1-28. 2018.<br />
+</p>
+
+<p>Alessandro Raganato, Claudio Delli Bovi and Roberto Navigli.<br />
+<b>Neural Sequence Learning Models for Word Sense Disambiguation.</b> [<a href="http://aclweb.org/anthology/D17-1120" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/D17-1120/d17-1120.bib" target="_blank">bib</a>] [<a href="./presentations/Seq2Sense_Poster.pdf" target="_blank">poster</a>]<br />
+<i>Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>, Copenhagen, Denmark, 7-11 September 2017.<br />
+</p>
+
+<p>Simone Papandrea, Alessandro Raganato and Claudio Delli Bovi.<br />
+<b>SupWSD: A Flexible Toolkit for Supervised Word Sense Disambiguation.</b> [<a href="http://aclweb.org/anthology/D17-2018" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/D17-2018/d17-2018.bib" target="_blank">bib</a>] [<a href="./presentations/SupWSD_Poster.pdf" target="_blank">poster</a>] [<a href="http://supwsd.com/supwsd/" target="_blank">website</a>] [<a href="https://github.com/SI3P/supWSD" target="_blank">code</a>]<br />
+<i>Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP): System Demonstrations</i>, Copenhagen, Denmark, 7-11 September 2017.<br />
+</p>
+
+<p>Claudio Delli Bovi and Alessandro Raganato.<br />
+<b>SEW-EMBED at SemEval-2017 Task 2: Language-Independent Concept Representations from a Semantically Enriched Wikipedia.</b> [<a href="http://aclweb.org/anthology/S17-2041" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/S17-2041/s17-2041.bib" target="_blank">bib</a>] [<a href="./presentations/PosterSemeval2017_SewEmbed.pdf" target="_blank">poster</a>] [<a href="http://lcl.uniroma1.it/sew/" target="_blank">website</a>]<br />
+<i>Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)</i>, Vancouver, Canada, 30 July-4 August 2017.<br />
+</p>
+
+<p>Claudio Delli Bovi, Jos&eacute; Camacho-Collados, Alessandro Raganato and Roberto Navigli.<br />
+<b>EuroSense: Automatic Harvesting of Multilingual Sense Annotations from Parallel Text.</b> [<a href="http://aclweb.org/anthology/P17-2094" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/P17-2094/p17-2094.bib" target="_blank">bib</a>] [<a href="./presentations/PosterACL2017_EuroSense.pdf" target="_blank">poster</a>] [<a href="http://lcl.uniroma1.it/eurosense/" target="_blank">website</a>]<br />
+<i>Proceedings of the 55th annual meeting of the Association for Computational Linguistics (ACL)</i>, Vancouver, Canada, 30 July-4 August 2017.<br />
+</p>
+	 
+<p>Alessandro Raganato, Jos&eacute; Camacho-Collados and Roberto Navigli.<br />
+<b>Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison.</b> [<a href="http://aclweb.org/anthology/E17-1010" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/E17-1010/e17-1010.bib" target="_blank">bib</a>] [<a href="./presentations/Slides_EACL17.pdf" target="_blank">slides</a>] [<a href="http://lcl.uniroma1.it/wsdeval/" target="_blank">website</a>]<br />
+<i>Proceedings of the 15th European Chapter of the Association for Computational Linguistics (EACL) 2017</i>, Valencia, Spain, 3-7 April 2017.<br />
+</p>
+	 
+<p>Alessandro Raganato, Jos&eacute; Camacho-Collados, Antonio Raganato and Yunseo Joung.<br />
+<b>Semantic Indexing of Multilingual Corpora and its Application on the History Domain.</b> [<a href="http://aclweb.org/anthology/W16-4019" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/W16-4019/w16-4019.bib" target="_blank">bib</a>] [<a href="./presentations/poster_lt4dh.pdf" target="_blank">poster</a>] [<a href="./lt4dh/index.html" target="_blank">website</a>]<br />
+<i>Proceedings of the Workshop on Language Technology Resources and Tools for Digital Humanities (LT4DH), COLING 2016</i>, Osaka, Japan.<br />
+</p>
+
+<p>Alessandro Raganato, Claudio Delli Bovi and Roberto Navigli.<br />
+<b>Automatic Construction and Evaluation of a Large Semantically Enriched Wikipedia.</b> [<a href="https://www.ijcai.org/Proceedings/16/Papers/411.pdf" target="_blank">paper</a>] [<a href="./bib/IJCAI2016.bib" target="_blank">bib</a>] [<a href="./presentations/PosterSEW.pdf" target="_blank">poster</a>] [<a href="./presentations/SlidesSEW.pdf" target="_blank">slides</a>] [<a href="http://lcl.uniroma1.it/sew/" target="_blank">website</a>]<br />
+<i>Proceedings of 25th International Joint Conference on Artificial Intelligence (IJCAI-16)</i>, New York City, New York, USA, 9-15 July 2016. <br />
+</p>
+
+<p>Jos&eacute; Camacho-Collados, Claudio Delli Bovi, Alessandro Raganato and Roberto Navigli.<br />
+<b>A Large-Scale Multilingual Disambiguation of Glosses.</b> [<a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/629_Paper.pdf" target="_blank">paper</a>] [<a href="./bib/LREC2016.bib" target="_blank">bib</a>] [<a href="./presentations/Slides_LREC2016.pdf" target="_blank">slides</a>] [<a href="http://lcl.uniroma1.it/disambiguated-glosses/" target="_blank">website</a>]<br />
+<i>Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016)</i>, Portorož, Slovenia, 23-28 May 2016, pp. 1701-1708.<br />
+</p>
+
+<p>Federico Scozzafava, Alessandro Raganato, Andrea Moro and Roberto Navigli.<br />
+<b>Automatic Identification and Disambiguation of Concepts and Named Entities in the Multilingual Wikipedia.</b> [<a href="http://wwwusers.di.uniroma1.it/~navigli/pubs/AIIA_2015_Scozzafavaetal.pdf" target="_blank">paper</a>] [<a href="./bib/AIXIA2015.bib" target="_blank">bib</a>] [<a href="./presentations/SlidesAIXIA2015.pdf" target="_blank">slides</a>] [<a href="http://lcl.uniroma1.it/babelfied-wikipedia/" target="_blank">website</a>]<br />
+<i>Proceedings of the 14th Congress of the Italian Association for Artificial Intelligence (AI*IA 2015)</i>, Ferrara, Italy, September 23-25th, 2015.<br />
+</p>
+
+<p>Andrea Moro, Alessandro Raganato and Roberto Navigli.<br>
+<b>Entity Linking meets Word Sense Disambiguation: A Unified Approach.</b> [<a href="http://aclweb.org/anthology/Q14-1019" target="_blank">paper</a>] [<a href="https://aclanthology.info/papers/Q14-1019/q14-1019.bib" target="_blank">bib</a>] [<a href="./presentations/PosterBabelfy.pdf" target="_blank">poster</a>] [<a href="http://babelfy.org/" target="_blank">website</a>]<br>
+<i>Transactions of the Association for Computational Linguistics (TACL)</i>, 2, pp. 231-244, 2014.<br>
+</p>
+  </div>
+    </div>
+  </div>
+  
+
+
+  <div class="ui inverted footer center aligned segment">
+    <div class="ui container"> 
+          <p>Powered by <a target="_blank" href="http://semantic-ui.com/">Semantic UI</a></p>
+        </div>
+    </div>
+
+  </div>
+
+
+<!--Start Cookie Script <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/ea580d2a6a1a6a0e295953461064c86d.js"></script> End Cookie Script-->
+
+</body></html>
