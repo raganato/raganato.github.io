@@ -4,8 +4,9 @@
     <title>Projects on Alessandro Raganato</title>
     <link>https://raganato.github.io/projects/</link>
     <description>Recent content in Projects on Alessandro Raganato</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Alessandro Raganato</copyright><atom:link href="https://raganato.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Alessandro Raganato</copyright>
+    <atom:link href="https://raganato.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
