@@ -29,5 +29,9 @@
     <loc>https://raganato.github.io/techs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://raganato.github.io/theses/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

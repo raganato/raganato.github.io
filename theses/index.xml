@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis Opportunities in NLP on Alessandro Raganato</title>
+    <link>https://raganato.github.io/theses/</link>
+    <description>Recent content in Thesis Opportunities in NLP on Alessandro Raganato</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Alessandro Raganato</copyright>
+    <atom:link href="https://raganato.github.io/theses/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
